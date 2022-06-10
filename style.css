@@ -1,0 +1,77 @@
+header {
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 20vh;
+    background-color: aquamarine; */
+}
+
+.box {
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vw;
+    height: 10vw; */
+  /* background-color: forestgreen; */
+}
+/*
+h1 {
+  / * verticales, horizontales * /
+  padding: 20px 10px;
+  border: solid green 5px;
+  / * sentido reloj * /
+  margin: 20px 10px 5px 0px;
+}
+*/
+/* 
+p {
+  margin-top: 20px;
+    padding-left: 15px;
+    border-left: red 5px solid;
+    background-color: yellow;
+}
+*/
+
+/* eliminar espacio superior blanco */
+body {
+    margin: 0px;
+}
+
+.fondo {
+  width: 95vw;
+  height: 400px;
+  background-image: url('./img/pizza.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100vw auto;
+  /* background-attachment: scroll; */
+
+}
+
+.nivel_1 {
+  background-color: aqua;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+.nivel_1_1 {
+  width: 100px;
+  height: 50px;
+  background-color: crimson;
+  border: solid 3px black;
+  margin: auto;
+}
+
+h4{
+    margin: 0px;
+    border: solid 3px green;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 20vh;
+    border: solid 5px red;
+}
